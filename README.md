@@ -29,3 +29,30 @@ src/
 │   ├── CashAccountService.java     # Operations logic for Cash accounts
 │   └── MarginAccountService.java   # Operations logic for Margin accounts
 └── Main.java                 # Higher-Order Execution & Stream Ingestion Engine
+```
+💻 Tech Stack & Design Concepts
+Language: Java 17+
+
+Paradigms: Functional Programming (Lambdas & Method References), Object-Oriented Programming (Polymorphism, Abstraction)
+
+I/O Processing: NIO.2 Fluent API & Stream Pipelines
+
+Design Patterns: Prototype Pattern (Cloning Engine), Repository Pattern
+
+🔧 How To Run & Expected Output
+Ensure you have JDK 17 or higher installed.
+
+Clone this repository to your local machine.
+
+Keep the data/ directory at the project root level.
+
+Compile and execute Main.java.
+
+Expected Console Output:
+```text
+Account A1234B Cash Balance: 550.00
+Account E3456F Cash Balance: 290.00
+Account I5678J Cash Balance: 125.20
+Account C2345D Margin: 1500.00
+Account G4567H Margin: 150.00
+```
